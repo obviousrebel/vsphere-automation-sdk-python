@@ -10,6 +10,7 @@ setup(name='vSphere-Automation-SDK',
       url='https://github.com/vmware/vsphere-automation-sdk-python',
       author='VMware, Inc.',
       license='MIT',
+      include_package_data=True,
       packages=[],
       install_requires=[
         'lxml >= 4.3.0',
