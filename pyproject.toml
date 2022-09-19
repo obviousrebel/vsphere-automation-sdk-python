@@ -4,6 +4,17 @@ version = "1.78.0"
 authors = ["VMWare"]
 description = "VMware vSphere Automation SDK for Python"
 homepage = "https://github.com/vmware/vsphere-automation-sdk-python"
+packages = [
+    { include = "vapi-runtime", from = "lib" },
+    { include = "vapi-client-bindings", from = "lib" },
+    { include = "vapi-common-client ", from = "lib" },
+    { include = "vmc-client-bindings", from = "lib" },
+    { include = "nsx-python-sdk", from = "lib" },
+    { include = "nsx-policy-python-sdk", from = "lib" },
+    { include = "nsx-vmc-policy-python-sdk", from = "lib" },
+    { include = "nsx-vmc-aws-integration-python-sdk", from = "lib" },
+    { include = "vmc-draas-client-bindings", from = "lib" },
+]
 
 [tool.poetry.dependencies]
 lxml = ">=4.3.0"
