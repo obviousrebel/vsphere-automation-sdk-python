@@ -5,6 +5,7 @@ authors = ["VMWare"]
 description = "VMware vSphere Automation SDK for Python"
 homepage = "https://github.com/vmware/vsphere-automation-sdk-python"
 packages = [
+    { include = "vSphere-Automation-SDK" },
     { include = "vapi-runtime", from = "lib" },
     { include = "vapi-client-bindings", from = "lib" },
     { include = "vapi-common-client ", from = "lib" },
