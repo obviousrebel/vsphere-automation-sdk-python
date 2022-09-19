@@ -15,6 +15,9 @@ packages = [
     { include = "nsx-vmc-aws-integration-python-sdk", from = "lib" },
     { include = "vmc-draas-client-bindings", from = "lib" },
 ]
+include = [
+ { path = "lib", format = ["sdist", "wheel"] }
+]
 
 [tool.poetry.dependencies]
 lxml = ">=4.3.0"
